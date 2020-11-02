@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ParametriConfigurazioneXML>
+    <windowSizeX>600</windowSizeX>
+    <windowSizeY>800</windowSizeY>
+    <font>Arial</font>
+    <background>white</background>
+    <defaultDatePeriod>365</defaultDatePeriod>
+    <logServerAddress>localhost</logServerAddress>
+    <logServerPort>8086</logServerPort>
+    <dbmsAddress>localhost</dbmsAddress>
+    <dbmsPort>3306</dbmsPort>
+    <dbmsPassword></dbmsPassword>
+    <dbmsUsername>root</dbmsUsername>
+    <dbmsName>gymlogger</dbmsName>
+</ParametriConfigurazioneXML>

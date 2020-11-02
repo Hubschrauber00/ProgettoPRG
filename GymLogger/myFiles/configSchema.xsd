@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+    <xs:element name="ParametriConfigurazioneXML">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="windowSizeX" type="xs:int"/>
+                <xs:element name="windowSizeY" type="xs:int"/>
+                <xs:element name="font" type="xs:string"/>
+                <xs:element name="background" type="xs:string"/>
+                <xs:element name="defaultDatePeriod" type="xs:int"/>
+                <xs:element name="logServerAddress" type="xs:string"/>
+                <xs:element name="logServerPort" type="xs:int"/>
+                <xs:element name="dbmsAddress" type="xs:string"/>
+                <xs:element name="dbmsPort" type="xs:int"/>
+                <xs:element name="dbmsPassword" type="xs:string"/>
+                <xs:element name="dbmsUsername" type="xs:string"/>
+                <xs:element name="dbmsName" type="xs:string"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
